@@ -1,0 +1,7 @@
+name: Check
+version: 1.0
+main: me.pyxled.check.Core
+author: Pyxled
+commands:
+  check:
+    usage: /<command>
