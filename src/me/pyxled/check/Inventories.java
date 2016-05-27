@@ -125,11 +125,7 @@ public class Inventories {
         inv.setItem(slot, boots);
     }
     public static String isOP(Player p){
-        if(p.isOp()){
-            return "&aTRUE";
-        } else {
-            return "&cFALSE";
-        }
+        return p.isOp() ? "&aTRUE" : "&cFALSE";
     }
     public static void addStack(Material material, int stacksize, short data, String name, Inventory inventory, int slot, String... lore){
         ItemStack itemStack = new ItemStack(material, stacksize, data);
